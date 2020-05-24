@@ -34,17 +34,20 @@ body
   text-align: center;
 }
 @media (min-width: 992px) {
-  .col-lg-3 {
-    float: left; 
-    width: 32%;
+  .col-lg-3,.col-lg-7 {
+    float: left; }
+    .col-lg-3
+   { width: 32%;
+  }
+  .col-lg-7
+  {
+    text-align: center;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6, .col-md-7{
-    float: left;
-    border: 5px solid black;
-  margin-left: 20px;}
+  .col-md-6, .col-md-7,.col-md-8{
+    float: left;}
   .col-md-6 {
     width: 45%;
   }
@@ -52,12 +55,21 @@ body
       clear:both; 
     width: 98%;
   }
-  
+  .col-md-8
+  {
+    text-align: center;
+  }
 }
 @media (max-width: 767px) {
-   .col-cg-3 {
-    float: left;
+   .col-cg-3,.col-cg-7 {
+    float: left;}
+.col-cg-3
+    {
     width: 85%;
+  }
+  .col-cg-7
+  {
+    text-align: center;
   }
   
 }
@@ -96,11 +108,11 @@ background: lightyellow;
 <body>
 <h1>OUR MENU</h1>
  <p class="row col-lg-3 col-md-6 col-cg-3"><span class="pizza">&emsp;GOLDEN CORN PIZZA&emsp;<br></span><br>
-  <span class ="col-lg-7">hello this is golden corn pizza from new pizza company downing,this flavor of pizza is very amazing,the hot corn sprinkeled over the pizza is so amazing,the falvour will make you the felling of best food you have ever tasted.</span></p>
+  <span class ="col-lg-7 col-md-8 col-cg-7">hello this is golden corn pizza from new pizza company downing,this flavor of pizza is very amazing,the hot corn sprinkeled over the pizza is so amazing,the falvour will make you the felling of best food you have ever tasted.</span></p>
   <p class="row col-lg-3  col-md-6 col-cg-3"><span class="whitesaucepasta">WHITE SAUCE PAASTA<br></span>
-    <span class="col-lg-7"><br>French cuisine consists of cooking traditions and practices from France. At one time French cuisine was heavily influenced by Italian cuisine. Cheese and wine are a major part of the cuisine, playing different roles regionally and nationally, with many variations.</span></p>
+    <span class="col-lg-7 col-md-8 col-cg-7"><br>French cuisine consists of cooking traditions and practices from France. At one time French cuisine was heavily influenced by Italian cuisine. Cheese and wine are a major part of the cuisine, playing different roles regionally and nationally, with many variations.</span></p>
   <p class="row col-lg-3 col-md-7 col-cg-3"><span class="burger">BURGER<br></span>
-    <span class ="col-lg-7"><br>A burger is not about a fancy brioche bun or homemade ketchup. It's about achieving the ideal proportion of juicy, cheese-cloaked beef, sharp onion, crunchy lettuce, and sweet-tangy “special sauce,” wrapped in a soft toasted bun.</span>
+    <span class ="col-lg-7 col-md-8 col-cg-7"><br>A burger is not about a fancy brioche bun or homemade ketchup. It's about achieving the ideal proportion of juicy, cheese-cloaked beef, sharp onion, crunchy lettuce, and sweet-tangy “special sauce,” wrapped in a soft toasted bun.</span>
   </p>
 
 
